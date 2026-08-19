@@ -1,4 +1,4 @@
-// Cloudflare / Deno Worker — Generate Clash Meta (Mihomo) YAML Config
+// Supabase / Deno Worker — Generate Valid Clash Meta (Mihomo) YAML Config
 
 Deno.serve(async (request) => {
   const url = new URL(request.url);
@@ -11,13 +11,13 @@ Deno.serve(async (request) => {
     return new Response("Invalid uuid or empty group", { status: 404 });
   }
 
-  // ۱. پارس کردن لینک‌ها به نودهای Clash
+  // ۱. پارس کردن لینک‌ها به ساختار پروکسی کلاش
   const proxies = links.map(parseLinkToClash).filter(Boolean);
   if (!proxies.length) return new Response("No valid nodes for Clash", { status: 422 });
 
   const proxyNames = proxies.map((p) => p.name);
 
-  // ۲. ساخت فایل YAML برای Clash
+  // ۲. ساخت خروجی متنی استاندارد YAML
   const yamlConfig = generateClashYaml(proxies, proxyNames);
 
   return new Response(yamlConfig, {
@@ -138,35 +138,41 @@ const serverGroups = {
 /* ================
    Helpers & Parsers
    ================ */
-function parseLinkToClash(link) {
+function parseLinkToClash(link, index) {
   if (typeof link !== "string") return null;
 
   try {
     const u = new URL(link);
     const proto = u.protocol.replace(":", "");
-    const name = decodeURIComponent(u.hash.replace(/^#/, "")) || `Node-${Math.random().toString(36).substring(7)}`;
+    const rawName = decodeURIComponent(u.hash.replace(/^#/, "")).trim();
+    const name = rawName ? rawName : `Node-${index + 1}`;
     const server = u.hostname;
     const port = Number(u.port || "443");
     const p = u.searchParams;
 
     if (proto === "vless") {
-      return {
-        name,
+      const node = {
+        name: name.replace(/['"#]/g, ""), // حذف کاراکترهای مخرب در YAML
         type: "vless",
-        server,
-        port,
+        server: server,
+        port: port,
         uuid: u.username,
         cipher: "auto",
         udp: true,
         tls: p.get("security") === "tls",
         servername: p.get("sni") || server,
         "client-fingerprint": p.get("fp") || "chrome",
-        network: p.get("type") || "tcp",
-        "ws-opts": p.get("type") === "ws" ? {
+        network: p.get("type") || "tcp"
+      };
+
+      if (p.get("type") === "ws") {
+        node["ws-opts"] = {
           path: p.get("path") || "/",
           headers: { Host: p.get("host") || server }
-        } : undefined
-      };
+        };
+      }
+
+      return node;
     }
   } catch {
     return null;
@@ -178,8 +184,32 @@ function parseLinkToClash(link) {
    YAML Generator
    ================ */
 function generateClashYaml(proxies, proxyNames) {
-  return `
-port: 7890
+  // تبدیل پروکسی‌ها به ساختار متنی YAML بدون استفاده از JSON.stringify
+  const proxiesYaml = proxies.map(p => {
+    let res = `  - name: "${p.name}"\n` +
+              `    type: ${p.type}\n` +
+              `    server: ${p.server}\n` +
+              `    port: ${p.port}\n` +
+              `    uuid: ${p.uuid}\n` +
+              `    cipher: ${p.cipher}\n` +
+              `    udp: ${p.udp}\n` +
+              `    tls: ${p.tls}\n` +
+              `    servername: ${p.servername}\n` +
+              `    client-fingerprint: ${p["client-fingerprint"]}\n` +
+              `    network: ${p.network}`;
+              
+    if (p["ws-opts"]) {
+      res += `\n    ws-opts:\n` +
+             `      path: "${p["ws-opts"].path}"\n` +
+             `      headers:\n` +
+             `        Host: ${p["ws-opts"].headers.Host}`;
+    }
+    return res;
+  }).join("\n");
+
+  const formattedProxyNames = proxyNames.map(n => `      - "${n}"`).join("\n");
+
+  return `port: 7890
 socks-port: 7891
 allow-lan: true
 mode: rule
@@ -187,7 +217,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-${JSON.stringify(proxies, null, 2).replace(/"([^"]+)":/g, '$1:')}
+${proxiesYaml}
 
 proxy-groups:
   - name: "⚡ Best Ping (خودکار)"
@@ -196,7 +226,7 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
-${proxyNames.map((n) => `      - "${n}"`).join("\n")}
+${formattedProxyNames}
 
   - name: "⚖️ Load Balance (توزیع بار)"
     type: load-balance
@@ -204,14 +234,14 @@ ${proxyNames.map((n) => `      - "${n}"`).join("\n")}
     interval: 30
     strategy: round-robin
     proxies:
-${proxyNames.map((n) => `      - "${n}"`).join("\n")}
+${formattedProxyNames}
 
   - name: "PROXIES"
     type: select
     proxies:
       - "⚡ Best Ping (خودکار)"
       - "⚖️ Load Balance (توزیع بار)"
-${proxyNames.map((n) => `      - "${n}"`).join("\n")}
+${formattedProxyNames}
 
 rules:
   - GEOIP,LAN,DIRECT
