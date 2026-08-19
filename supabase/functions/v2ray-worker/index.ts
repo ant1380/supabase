@@ -33,6 +33,7 @@ Deno.serve(async (request) => {
    ================ */
 const serverGroups = {
   "1": [
+    "vless://14e28b36-9a4d-40a4-9aff-fb63163c74f4@104.16.72.162:443?encryption=none&security=tls&sni=test1200.erfanhub.ir&fp=random&alpn=http%2F1.1&type=ws&host=test1200.erfanhub.ir&path=%2Fpyip%3D185.230.190.148#1",
     // لینک‌های خودت را اینجا بگذار
   ],
 };
