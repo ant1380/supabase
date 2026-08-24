@@ -87,7 +87,7 @@ const serverGroups = {
         "vless://14371dd4-9ba9-4e3a-88ad-b1eb9569f154@91.206.71.164:443?encryption=none&security=tls&sni=dJt8n4DkF87z6QD1Wy6S.RiDAm68232.worKErS.dEv&fp=random&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=djt8n4dkf87z6qd1wy6s.ridam68232.workers.dev&path=%2Fvl%2FJpMMgNI2wq0KfjVL7cga%3Fed%3D2560#40",
         "vless://14371dd4-9ba9-4e3a-88ad-b1eb9569f154@104.16.72.162:443?encryption=none&security=tls&sni=dJt8n4DkF87z6QD1Wy6S.RiDAm68232.worKErS.dEv&fp=random&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=djt8n4dkf87z6qd1wy6s.ridam68232.workers.dev&path=%2Fvl%2FJpMMgNI2wq0KfjVL7cga%3Fed%3D2560#41",
         "vless://14371dd4-9ba9-4e3a-88ad-b1eb9569f154@198.41.204.141:443?encryption=none&security=tls&sni=dJt8n4DkF87z6QD1Wy6S.RiDAm68232.worKErS.dEv&fp=random&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=djt8n4dkf87z6qd1wy6s.ridam68232.workers.dev&path=%2Fvl%2FJpMMgNI2wq0KfjVL7cga%3Fed%3D2560#42",
-        "vless://14371dd4-9ba9-4e3a-88ad-b1eb9569f154@172.64.75.10:443?encryption=none&security=tls&sni=dJt8n4DkF87z6QD1Wy6S.RiDAm68232.worKErS.dEv&fp=random&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=djt8n4dkf87z6qd1wy6s.ridam68232.workers.dev&path=%2Fvl%2FJpMMgNI2wq0KfjVL7cga%3Fed%3D2560#43"
+        "vless://14371dd4-9ba9-4e3a-88ad-b1eb9569f154@172.64.75.10:443?encryption=none&security=tls&sni=dJt8n4DkF87z6QD1Wy6S.RiDAm68232.worKErS.dEv&fp=random&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=djt8n4dkf87z6qd1wy6s.ridam68232.workers.dev&path=%2Fvl%2FJpMMgNI2wq0KfjVL7cga%3Fed%3D2560#43",
   ],
   "4": [
         "vless://0b6f55ce-2c36-453c-899c-89afcb2d7b6e@104.16.75.207:443?encryption=none&security=tls&sni=nalam.erfnmndi474.workers.dev&fp=random&insecure=0&allowInsecure=0&type=ws&host=nalam.erfnmndi474.workers.dev&path=%2Fgateway#8",
@@ -113,7 +113,7 @@ const serverGroups = {
         "vless://a08bcfa1-f3b2-44f2-8899-d19ea09fe9d2@104.18.152.216:443?encryption=none&security=tls&sni=NuJ-VdqKRjD716Kg0CVB20.ErfnmnDI474.WoRkErs.Dev&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=nuj-vdqkrjd716kg0cvb20.erfnmndi474.workers.dev&path=%2Fvl%2FHkFiKqHSWqoacZM7R0daqmO%3Fed%3D2560#28",
         "vless://a08bcfa1-f3b2-44f2-8899-d19ea09fe9d2@104.18.152.197:443?encryption=none&security=tls&sni=NuJ-VdqKRjD716Kg0CVB20.ErfnmnDI474.WoRkErs.Dev&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=nuj-vdqkrjd716kg0cvb20.erfnmndi474.workers.dev&path=%2Fvl%2FHkFiKqHSWqoacZM7R0daqmO%3Fed%3D2560#29",
         "vless://a08bcfa1-f3b2-44f2-8899-d19ea09fe9d2@104.16.73.199:443?encryption=none&security=tls&sni=NuJ-VdqKRjD716Kg0CVB20.ErfnmnDI474.WoRkErs.Dev&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=nuj-vdqkrjd716kg0cvb20.erfnmndi474.workers.dev&path=%2Fvl%2FHkFiKqHSWqoacZM7R0daqmO%3Fed%3D2560#30",
-        "vless://a08bcfa1-f3b2-44f2-8899-d19ea09fe9d2@104.16.73.225:443?encryption=none&security=tls&sni=NuJ-VdqKRjD716Kg0CVB20.ErfnmnDI474.WoRkErs.Dev&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=nuj-vdqkrjd716kg0cvb20.erfnmndi474.workers.dev&path=%2Fvl%2FHkFiKqHSWqoacZM7R0daqmO%3Fed%3D2560#31"
+        "vless://a08bcfa1-f3b2-44f2-8899-d19ea09fe9d2@104.16.73.225:443?encryption=none&security=tls&sni=NuJ-VdqKRjD716Kg0CVB20.ErfnmnDI474.WoRkErs.Dev&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=nuj-vdqkrjd716kg0cvb20.erfnmndi474.workers.dev&path=%2Fvl%2FHkFiKqHSWqoacZM7R0daqmO%3Fed%3D2560#31",
   ],
   "5": [
       "vless://d051c366-9f76-11f1-b2ed-00163cbe6c97@104.27.119.28:443?encryption=none&security=tls&sni=lolsa.erfanfamily2.ir&type=ws&host=lolsa.erfanfamily2.ir&path=bh2.vpnjantit.com%3A10002%2Fvpnjantit#bahrain",
@@ -130,7 +130,7 @@ const serverGroups = {
         "vless://1f619326-cd93-4d6b-aebe-e0b5f8831d02@104.27.119.28:443?encryption=none&security=tls&sni=lolsa.erfanfamily2.ir&fp=chrome&alpn=http%2F1.1&type=ws&host=lolsa.erfanfamily2.ir&path=%2Fnl7.unlockvpn.online%3A8444%2Fapi%2Fv1%2Fdevices%2Fd5e8188467%2Ftelemetry#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
         "vless://08f84d53-e262-459c-a15a-26213e7a07c9@104.27.119.28:443?encryption=none&security=tls&sni=lolsa.erfanfamily2.ir&fp=chrome&alpn=http%2F1.1&type=ws&host=lolsa.erfanfamily2.ir&path=%2Fbe2.wba-pn.ru%3A443%2F#%F0%9F%87%A7%F0%9F%87%AA%20Belgium",
         "vless://2edfd299-fd54-4056-9d79-3c99f19bdae1@104.27.119.28:443?encryption=none&security=tls&sni=lolsa.erfanfamily2.ir&fp=chrome&alpn=http%2F1.1&type=ws&host=lolsa.erfanfamily2.ir&path=%2Fnode2.onepanel123.ru%3A2087%2Fde-vless-ws#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-        "vless://d051c366-9f76-11f1-b2ed-00163cbe6c97@104.27.119.28:443?encryption=none&security=tls&sni=lolsa.erfanfamily2.ir&type=ws&host=lolsa.erfanfamily2.ir&path=bh2.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%A7%F0%9F%87%AD%20Bahrain"        
+        "vless://d051c366-9f76-11f1-b2ed-00163cbe6c97@104.27.119.28:443?encryption=none&security=tls&sni=lolsa.erfanfamily2.ir&type=ws&host=lolsa.erfanfamily2.ir&path=bh2.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%A7%F0%9F%87%AD%20Bahrain",        
   ]
 };
 
