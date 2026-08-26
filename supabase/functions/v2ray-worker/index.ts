@@ -144,7 +144,7 @@ const serverGroups = {
         "vless://c8fca04e-a175-11f1-b131-a3a2d995b3e1@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=fr2.vpnjantit.com%3A10002%2Fvpnjantit#🇫🇷 France",
         "vless://e8cd9b76-a175-11f1-9f79-d34946e00970@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=gr2.vpnjantit.com%3A10002%2Fvpnjantit#🇩🇪 Germany",
         "vless://15714150-a176-11f1-a523-d353063d7409@104.16.72.162:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=premiusa1.vpnjantit.com%3A10002%2Fvpnjantit#🇺🇸 United States 3",
-        "vless://381b5524-a176-11f1-b42e-1784c3c415f1@104.16.72.162:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=fr1.vpnjantit.com%3A10002%2Fvpnjantit#🇫🇷 France 2"
+        "vless://381b5524-a176-11f1-b42e-1784c3c415f1@104.16.72.162:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=fr1.vpnjantit.com%3A10002%2Fvpnjantit#🇫🇷 France2"
   ]
 };
 
