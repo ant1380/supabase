@@ -129,7 +129,6 @@ const serverGroups = {
         "vless://a08bcfa1-f3b2-44f2-8899-d19ea09fe9d2@104.16.73.225:443?encryption=none&security=tls&sni=NuJ-VdqKRjD716Kg0CVB20.ErfnmnDI474.WoRkErs.Dev&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=nuj-vdqkrjd716kg0cvb20.erfnmndi474.workers.dev&path=%2Fvl%2FHkFiKqHSWqoacZM7R0daqmO%3Fed%3D2560#31"
   ],
   "5": [
-        "vless://d051c366-9f76-11f1-b2ed-00163cbe6c97@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&type=ws&host=yes.docom47457.workers.dev&path=bh2.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%A7%F0%9F%87%AD%20Bahrain",
         "vless://6eca06e0-a12d-11f1-a184-dfeaacfbd75e@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=ca1.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%A8%F0%9F%87%A6%20canada",
         "vless://de3898d2-9f77-11f1-8956-2318126adb8d@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=%2Ffi2.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%AB%F0%9F%87%AE%20Finland",
         "vless://fa14adac-9f77-11f1-9e7e-1b22ee9887cf@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=chrome&alpn=http%2F1.1&ech=cloudflare-ech.com%2Bhttps%3A%2F%2F8.8.8.8%2Fdns-query&type=ws&host=yes.docom47457.workers.dev&path=%2Ffr1.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%AB%F0%9F%87%B7%20France",
@@ -141,7 +140,6 @@ const serverGroups = {
         "vless://924b826c-9f78-11f1-828b-7fe71eb40a64@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=%2Fusa8.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%BA%F0%9F%87%B8%20United%20States",
         "vless://93c7bf90-a13d-11f1-8c79-52ac0074670e@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&type=ws&host=yes.docom47457.workers.dev&path=premiusa3.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%202",
         "vless://aa79a676-a175-11f1-8a9c-efc9328af0ce@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=at1.vpnjantit.com%3A10002%2Fvpnjantit#🇦🇹 Austria",
-        "vless://c8fca04e-a175-11f1-b131-a3a2d995b3e1@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=fr2.vpnjantit.com%3A10002%2Fvpnjantit#🇫🇷 France 2",
         "vless://e8cd9b76-a175-11f1-9f79-d34946e00970@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=gr2.vpnjantit.com%3A10002%2Fvpnjantit#🇩🇪 Germany",
         "vless://15714150-a176-11f1-a523-d353063d7409@172.67.184.127:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=random&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=premiusa1.vpnjantit.com%3A10002%2Fvpnjantit#🇺🇸 United States 3",
   ]
