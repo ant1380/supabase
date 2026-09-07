@@ -42,7 +42,7 @@ const serverGroups = {
         "vless://95aff35e-a5f2-11f1-b546-d3064527b3da@188.114.96.1:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=%2Fee2.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%202",
         "vless://7812d9fb-ee0f-4e5f-b346-f1d596201a19@69.46.46.18:443?encryption=none&security=tls&sni=sohrabs.up.railway.app&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&type=ws&host=sohrabs.up.railway.app&path=%2Frefuse#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20East%202",
         "vless://256bfe46-a5f0-11f1-a65c-ef77b3ab429e@188.114.96.1:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=%2Ftr2.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye",
-        "vless://02b1ea62-173d-43df-a566-6f0f65536e23@172.67.163.166:443?encryption=none&security=tls&sni=hola.erfanfamily.ir&fp=random&type=ws&host=hola.erfanfamily.ir&path=%2F%3Fed%3D2048#8"
+        "vless://d471d072-a9ca-11f1-8c67-abcd45721c06@188.114.96.1:443?path=%2Fdk1.vpnjantit.com%3A10002%2Fvpnjantit&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=yes.docom47457.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=yes.docom47457.workers.dev#%F0%9F%87%A9%F0%9F%87%B0%20Denmark"
       ],
   "2": [
         "vless://7850157b-2560-435e-9695-c8a76c30f31f@188.114.96.3:443?encryption=none&security=tls&sni=first.corw.ir&fp=random&alpn=http%2F1.1&type=ws&host=first.corw.ir&path=%2Fvl%2Fhn71UJzifNrP1a3UDm5mTmCS6hX1Gu%3Fed%3D2560#5",
