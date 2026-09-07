@@ -42,10 +42,7 @@ const serverGroups = {
         "vless://95aff35e-a5f2-11f1-b546-d3064527b3da@188.114.96.1:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=%2Fee2.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%202",
         "vless://7812d9fb-ee0f-4e5f-b346-f1d596201a19@69.46.46.18:443?encryption=none&security=tls&sni=sohrabs.up.railway.app&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&type=ws&host=sohrabs.up.railway.app&path=%2Frefuse#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20East%202",
         "vless://256bfe46-a5f0-11f1-a65c-ef77b3ab429e@188.114.96.1:443?encryption=none&security=tls&sni=yes.docom47457.workers.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=yes.docom47457.workers.dev&path=%2Ftr2.vpnjantit.com%3A10002%2Fvpnjantit#%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye",
-        "vless://7850157b-2560-435e-9695-c8a76c30f31f@188.114.96.3:443?encryption=none&",
-        "vless://4199303a-8fd4-4e06-8799-7ccad9070671@104.21.74.63:443?encryption=none&",
-        "vless://c43c59c6-5fdd-4109-8d8d-66578c026f02@104.20.18.167:443?encryption=none&",
-        "vless://02b1ea62-173d-43df-a566-6f0f65536e23@172.67.163.166:443?encryption=none&"
+        "vless://02b1ea62-173d-43df-a566-6f0f65536e23@172.67.163.166:443?encryption=none&security=tls&sni=hola.erfanfamily.ir&fp=random&type=ws&host=hola.erfanfamily.ir&path=%2F%3Fed%3D2048#8"
       ],
   "2": [
         "vless://7850157b-2560-435e-9695-c8a76c30f31f@188.114.96.3:443?encryption=none&security=tls&sni=first.corw.ir&fp=random&alpn=http%2F1.1&type=ws&host=first.corw.ir&path=%2Fvl%2Fhn71UJzifNrP1a3UDm5mTmCS6hX1Gu%3Fed%3D2560#5",
